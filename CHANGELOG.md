@@ -1,5 +1,37 @@
 # Changelog
 
+## 3.1.7 - 2015-06-09
+
+- Do not remove units from values starting from zeroes, like `0.5em` (#394)
+
+## 3.1.6 - 2015-06-09
+- Hotfix for issue when `unitless-zero` crashed on percentages in Less (#389)
+
+## 3.1.5 - 2015-05-27
+- Fixed dependencies
+
+## 3.1.4 - 2015-05-24
+- Fixed `space-after-opening-brace` option for empty media queries (#387)
+
+## 3.1.3 - 2015-05-20
+- Do not add extra space before combinators which go first in selectors (#381)
+
+## 3.1.2 - 2015-05-20
+- Fixed processing of hashes (#379)
+
+## 3.1.1 - 2015-05-20
+- Fixed `space-between-declarations` vs. media queries (#378)
+
+## 3.1.0 - 2015-05-19
+**Thanks to
+[@1000ch](https://github.com/1000ch),
+[@alexeykuzmin](https://github.com/alexeykuzmin),
+[@jonrohan](https://github.com/jonrohan)**
+- Used new Gonzales PE API
+- Fixed nested properties (#319)
+- Added support for symlinked configs
+- Added support for configs with any extension
+
 ## 3.0.4 - 2014-11-15
 **Thanks to
 [@gonzalocasas](https://github.com/gonzalocasas),
